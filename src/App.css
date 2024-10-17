@@ -1,0 +1,111 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* App Wrapper */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.group-options, .sort-options {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background-color: #555;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #777;
+}
+
+/* Kanban Board */
+.kanban-board {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Group Column */
+.group-column {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+.group-column h2 {
+  background-color: #555;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* Ticket Card */
+.ticket-card {
+  background-color: #f9f9f9;
+  margin: 10px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.ticket-card h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.ticket-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.ticket-card .priority {
+  font-weight: bold;
+  color: #e74c3c;
+  display: flex;
+  align-items: center;
+}
+
+.priority-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.ticket-card .status {
+  font-style: italic;
+  color: #3498db;
+}
+
+.ticket-card .user {
+  color: #2ecc71;
+}
